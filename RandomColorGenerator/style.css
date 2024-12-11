@@ -1,6 +1,6 @@
 :root {
   --primary-bg: #f5f5f5;
-  --secondary-bg: #ffffff;
+  --secondary-bg: #746aff;
   --accent-color: red;
   --text-color: #333333;
   --button-text-color: #ffffff;
@@ -82,4 +82,9 @@ button:hover {
   .random-color-generator-container {
     flex-direction: column;
   }
+}
+
+.hex-btn,
+.rgb-button {
+  margin: 1rem;
 }

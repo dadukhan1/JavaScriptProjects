@@ -29,7 +29,7 @@ let rgbValueCopy = "";
 
 rgbButton.addEventListener("click", () => {
   let exactRedValue = getRedInputRange.value;
-  let exactGreenValue = getGreenInputRange.value;
+  let exactGreenValue = getGreenInputRange.value; 
   let exactBlueValue = getBlueInputRange.value;
 
   rgbBackground.style.backgroundColor = `rgb(${exactRedValue},${exactGreenValue},${exactBlueValue})`;
